@@ -1,11 +1,11 @@
 @font-face {
     font-family: RedHatDisplay;
-    src: url(/assets/RedHatDisplay-VariableFont_wght.ttf);
+    src: url(/Order-Summary/assets/RedHatDisplay-VariableFont_wght.ttf);
 }
 
 @font-face {
     font-family: RedHatDisplay_italic;
-    src: url(/assets/RedHatDisplay-Italic-VariableFont_wght.ttf);
+    src: url(/Order-Summary/assets/RedHatDisplay-Italic-VariableFont_wght.ttf);
 }
 
 body{
@@ -14,7 +14,7 @@ body{
     justify-content: center;
     align-items: center;
     font-family: RedHatDisplay;
-    background: url(/order-summary-component-main/images/pattern-background-desktop.svg) no-repeat center center fixed;
+    background: url(/Order-Summary/order-summary-component-main/images/pattern-background-desktop.svg) no-repeat center center fixed;
     background-position-y: top;
     overflow:hidden; 
     background-color: #E0E8FF;
