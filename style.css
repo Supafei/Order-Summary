@@ -1,0 +1,116 @@
+@font-face {
+    font-family: RedHatDisplay;
+    src: url(/assets/RedHatDisplay-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: RedHatDisplay_italic;
+    src: url(/assets/RedHatDisplay-Italic-VariableFont_wght.ttf);
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: RedHatDisplay;
+    background: url(/order-summary-component-main/images/pattern-background-desktop.svg) no-repeat center center fixed;
+    background-position-y: top;
+    overflow:hidden; 
+    background-color: #E0E8FF;
+}
+
+
+.contenair{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 550px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 2px rgb(187, 187, 187);
+}
+
+.dancing img{
+    width: 350px;
+    border-radius: 10px 10px 0 0;
+}
+
+
+h1 {
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 0;
+
+    
+}
+
+p {
+    width: 300px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.payment{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    background-color: hsl(225, 100%, 98%);
+    width: 300px;
+    border-radius: 10px;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+.coast .annual{
+    font-weight: 900;
+    margin-bottom: 3px;
+
+}
+.price{
+    font-family: RedHatDisplay_Italic;
+    font-weight: 400;
+    color: rgb(97, 97, 97);
+    font-size: 15px;
+}
+
+.change{
+    margin-top: 15px;
+}
+
+.button{
+    margin-top: 30px;
+}
+
+.proceed button{
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    background-color: #3929E1;
+    color: white;
+    font-family: RedHatDisplay;
+    font-weight: bold;
+    box-shadow: 0 5px 15px  #a6b5db;
+}
+
+.proceed button:hover{
+    background-color: #6c717e;
+    
+}
+
+.cancel button{
+    margin: 20px 0 0 35%;
+    font-family: RedHatDisplay;
+    color:#6c717e;
+    font-weight: bold;
+    border: none;
+    background: none;
+
+
+}
+.cancel button:hover{
+    color:#3929E1;
+    
+}
